@@ -1,2 +1,2 @@
 # bronze
-A stunningly simple CSS framework
+A stunningly simple CSS framework (Work-in-progress)
