@@ -1,0 +1,33 @@
+/* Remember to add (<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">) to your html head element */
+
+html,
+body {
+    background-color: #f9f7f4;
+    color: ;
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    text-align: center;
+    text-transform: none;
+}
+
+a {
+    color: #aaed40;
+}
+
+.button {
+    background-color: #aaed40;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
