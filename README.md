@@ -43,6 +43,8 @@ and more!
 </table>
 ```
 ### Nav Bar Usage
+![bronze-navbar](./images/header.png)
+
 ```
 <ul>
   <li><a href="#home">Home</a></li>
