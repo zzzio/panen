@@ -5,7 +5,7 @@
 ### Usage 
 Bronze is easy to use and can be installed by adding a link to your sites HTML head element.
 ```
-<link rel="stylesheet" href="https://dl.dropbox.com/s/3t7d0893w776qgr/bronze-framwork.css?dl=0" />
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/fywgo105roorqgz/bronze-framwork.css?dl=0" />
 ```
 
 ### Features
