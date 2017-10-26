@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html,
+body {
+    background-color: #f9f7f4;
+    color: ;
+    width: 100%;
+    height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    text-align: center;
+    text-transform: none;
+}
+
+a {
+    color: #aaed40;
+}
+
+.button {
+    background-color: #aaed40;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aaed40;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #aff73d;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 6px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+th {
+    background-color: #aaed40;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+hr.style {
+    border: 0;
+    height: 2px;
+    background: #aaed40;
+}
