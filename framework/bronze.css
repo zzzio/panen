@@ -3,7 +3,7 @@
 html,
 body {
     background-color: #f9f7f4;
-    color: ;
+    color: #222226;
     width: 100%;
     height: auto;
     font-family: 'Ubuntu', sans-serif;
@@ -20,7 +20,7 @@ a {
 }
 
 .button {
-    background-color: #aaed40;
+    background-color: #222226;
     border: none;
     color: white;
     padding: 20px;
@@ -37,7 +37,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #aaed40;
+    background-color: #222226;
 }
 
 li {
@@ -53,10 +53,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #aff73d;
-}
-
 table {
     width: 100%;
 }
@@ -68,7 +64,7 @@ th, td {
 }
 
 th {
-    background-color: #aaed40;
+    background-color: #222226;
     color: white;
     font-family: 'Ubuntu', sans-serif;
 
@@ -77,5 +73,5 @@ th {
 hr.style {
     border: 0;
     height: 2px;
-    background: #aaed40;
+    background: #222226;
 }
