@@ -9,6 +9,8 @@ Bronze is easy to use and can be installed by adding a link to your sites HTML h
 ```
 <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/fywgo105roorqgz/bronze-framwork.css?dl=0" />
 ```
+### Stats
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/VutonDesign/bronze.svg?columns=all)](http://waffle.io/VutonDesign/bronze)
 
 ### Features
 - Tables 
