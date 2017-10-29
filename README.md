@@ -1,8 +1,8 @@
 <h1 align="center">Bronze</h1>
 <p align="center"> A stunningly simple CSS framework </p>
-
-
-![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102) 
+<p align="center">
+  <a href="http://vutondesign.com/MyMIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+</p>
 
 ### Usage 
 Bronze is easy to use and can be installed by adding a link to your sites HTML head element.
