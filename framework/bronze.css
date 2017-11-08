@@ -74,3 +74,15 @@ hr.style {
     height: 2px;
     background: #222226;
 }
+
+header li a {
+	display: block;
+	text-align: center;
+	padding: 12px 14px;
+	transition: background-color .2s ease-in-out;
+	border-radius: 50px;
+}
+
+header li a:hover {
+	background-color: white;
+}
