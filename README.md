@@ -58,31 +58,8 @@ and more!
 ### Button Usage
 
 ```
-.button-1 {
-    background-color: #3498db;
-    border-radius: 12px;
-    border: none;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-}
-
-.button-2 {
-    background-color: #3498db;
-    border-radius: 19px;
-    border: none;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-}
+<button class="button-1">Button 1</button>
+<button class="button-2">Button 2</button>
 ```
 
 ### Updates
