@@ -7,7 +7,7 @@
 ### Usage 
 Bronze is easy to use and can be installed by adding a link to your sites HTML head element.
 ```
-<link rel="stylesheet" href="https://gitcdn.xyz/repo/VutonDesign/bronze/master/framework/bronze.css" />
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/VutonDesign/bronze/master/framework/bronze.css"/>
 ```
 ### Stats
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/VutonDesign/bronze.svg?columns=all)](http://waffle.io/VutonDesign/bronze)
@@ -45,7 +45,6 @@ and more!
 </table>
 ```
 ### Nav Bar Usage
-![bronze-navbar](./images/header.png)
 
 ```
 <ul>
@@ -54,6 +53,36 @@ and more!
   <li><a href="#products">Products</a></li>
   <li><a href="#designs">Designs</a></li>
 </ul>
+```
+
+### Button Usage
+
+```
+.button-1 {
+    background-color: #3498db;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button-2 {
+    background-color: #3498db;
+    border-radius: 19px;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
 ```
 
 ### Updates
