@@ -64,7 +64,3 @@ and more!
 
 ### Preview 
 Preview the features here - http://vutondesign.com/bronze/preview
-
-### Updates
-An Issue will be opened anytime a CDN link is about to be changed, So watching this repo is recommended if you don't want your site 
-to break.
