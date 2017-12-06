@@ -62,3 +62,6 @@ and more!
 
 ### Preview 
 Preview the features here - http://vutondesign.com/bronze/preview
+
+### License 
+🎨 with ❤️ by vutondesign under the [MIT License](http://vutondesign.com/MyMIT/).
