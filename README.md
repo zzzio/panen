@@ -10,7 +10,9 @@ Bronze is easy to use and can be installed by adding a link to your sites HTML h
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/VutonDesign/bronze@v2.0/framework/bronze.css"/>
 ```
 ### Install
-```git clone https://github.com/vutondesign/wait.git```
+```
+git clone https://github.com/vutondesign/wait.git
+```
 
 ### Features
 - Tables 
