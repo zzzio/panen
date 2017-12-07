@@ -11,7 +11,7 @@ Bronze is easy to use and can be installed by adding a link to your sites HTML h
 ```
 ### Install
 ```
-git clone https://github.com/vutondesign/wait.git
+git clone https://github.com/vutondesign/bronze.git
 ```
 
 ### Features
