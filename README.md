@@ -68,4 +68,4 @@ and more!
 Preview the features [here](https://vutondesign.com/bronze/preview).
 
 ### License 
-🎨 with ❤️ by vutondesign under the [MIT License](http://vutondesign.com/MyMIT/).
+🎨 with ❤️ by vutondesign under the [MIT License](http://vutondesign.com/mymit/).
