@@ -1,5 +1,4 @@
 <h1 align="center">You have found...the docs</h1>
-<p align="center">
 
 ---- 
 
