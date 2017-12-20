@@ -1,7 +1,3 @@
-<h1 align="center">You have found...the docs</h1>
-
----- 
-
 ### Hello!
 Welcome to the official docs page for Bronze!
 
