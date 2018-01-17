@@ -1,102 +1,315 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*
+//  Bronze Framework 
+//  -----------------------------
+//
+//  Table of Contents:
+//
+//   1. Global
+//   2. The Grid
+//   3. Button
+*/
 
-html,
-body {
-    background-color: white;
-    color: #222226;
-    width: 100%;
-    height: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-    text-transform: none;
-}
 
-a {
-    color: #3498db;
-    text-decoration: none;
-}
+/*  1. Global   */
+  /* ----------- */
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #3498db;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding: 18px 20px;
-    text-decoration: none;
-}
-
-table {
-    width: 100%;
-}
-
-th, td {
-    text-align: center;
-    padding: 6px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-th {
-    background-color: #3498db;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-hr.style {
-    border: 0;
-    height: 2px;
-    background: #3498db;
-}
-
-header li a {
-	display: block;
-	text-align: center;
-	padding: 12px 14px;
-	transition: background-color .2s ease-in-out;
-	border-radius: 50px;
-}
-
-header li a:hover {
-	background-color: white;
-}
-
-.button-1 {
-    background-color: #3498db;
-    border-radius: 12px;
-    border: none;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-}
-
-.button-2 {
-    background-color: #3498db;
-    border-radius: 19px;
-    border: none;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-}
-
+  * {
+      box-sizing:border-box;
+  }
+  
+  html,
+  body {
+      background-color: white;
+      color: #222226;
+      width: 100%;
+      height: auto;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+      text-transform: none;
+  }
+  
+  a {
+      color: #3498db;
+      text-decoration: none;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #3498db;
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      padding: 18px 20px;
+      text-decoration: none;
+  }
+  
+  table {
+      width: 100%;
+  }
+  
+  th, td {
+      text-align: center;
+      padding: 6px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+  th {
+      background-color: #3498db;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+  hr.style {
+      border: 0;
+      height: 2px;
+      background: #3498db;
+  }
+  
+  header li a {
+      display: block;
+      text-align: center;
+      padding: 12px 14px;
+      transition: background-color .2s ease-in-out;
+      border-radius: 50px;
+  }
+  
+  header li a:hover {
+      background-color: white;
+  }
+  
+  
+  /*  2. The Grid   */
+    /* ----------- */
+  
+  .left {
+      text-align: left;
+    }
+    
+    .right {
+      text-align: right;
+    }
+    
+    .center {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .justify {
+      text-align: justify;
+    }
+    
+    .container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .row {
+      position: relative;
+      width: 100%;
+    }
+    
+    .row [class^="col"] {
+      float: left;
+      margin: 0.5rem 2%;
+      min-height: 0.125rem;
+    }
+    
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+      width: 96%;
+    }
+    
+    .col-1-sm {
+      width: 4.33%;
+    }
+    
+    .col-2-sm {
+      width: 12.66%;
+    }
+    
+    .col-3-sm {
+      width: 21%;
+    }
+    
+    .col-4-sm {
+      width: 29.33%;
+    }
+    
+    .col-5-sm {
+      width: 37.66%;
+    }
+    
+    .col-6-sm {
+      width: 46%;
+    }
+    
+    .col-7-sm {
+      width: 54.33%;
+    }
+    
+    .col-8-sm {
+      width: 62.66%;
+    }
+    
+    .col-9-sm {
+      width: 71%;
+    }
+    
+    .col-10-sm {
+      width: 79.33%;
+    }
+    
+    .col-11-sm {
+      width: 87.66%;
+    }
+    
+    .col-12-sm {
+      width: 96%;
+    }
+    
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .hidden-sm {
+      display: none;
+    }
+    
+    @media only screen and (min-width: 33.75em) {  /* 540px */
+      .container {
+        width: 80%;
+      }
+    }
+    
+    @media only screen and (min-width: 45em) {  /* 720px */
+      .col-1 {
+        width: 4.33%;
+      }
+    
+      .col-2 {
+        width: 12.66%;
+      }
+    
+      .col-3 {
+        width: 21%;
+      }
+    
+      .col-4 {
+        width: 29.33%;
+      }
+    
+      .col-5 {
+        width: 37.66%;
+      }
+    
+      .col-6 {
+        width: 46%;
+      }
+    
+      .col-7 {
+        width: 54.33%;
+      }
+    
+      .col-8 {
+        width: 62.66%;
+      }
+    
+      .col-9 {
+        width: 71%;
+      }
+    
+      .col-10 {
+        width: 79.33%;
+      }
+    
+      .col-11 {
+        width: 87.66%;
+      }
+    
+      .col-12 {
+        width: 96%;
+      }
+    
+      .hidden-sm {
+        display: block;
+      }
+    }
+    
+    @media only screen and (min-width: 60em) { /* 960px */
+      .container {
+        width: 75%;
+        max-width: 60rem;
+      }
+    }
+  
+  
+    /*  3. Button   */
+    /* ----------- */
+  
+  
+  
+    .button-1 {
+      background-color: #3498db;
+      border-radius: 12px;
+      border: none;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+  }
+  
+  .button-2 {
+      background-color: #3498db;
+      border-radius: 19px;
+      border: none;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+  }
+  
+  /*
+  Aesthetic grid styles for demo not for dist version 
+  */
+  .grid-display [class^="col"] {
+      background: #9dceef;
+      border: 1px solid #3498db;
+      border-radius: 4px;
+      box-sizing: border-box;
+      text-align: center;
+  }
